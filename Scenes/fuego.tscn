@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://c34qduiewshk8"]
+
+[ext_resource type="PackedScene" uid="uid://5gajt60hg5u3" path="res://Scenes/fire.tscn" id="1_8ss6v"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Fire" parent="." instance=ExtResource("1_8ss6v")]
+
+[node name="Fire5" parent="." instance=ExtResource("1_8ss6v")]
+position = Vector2(-2, -2)
+
+[node name="Fire2" parent="." instance=ExtResource("1_8ss6v")]
+position = Vector2(3, 2)
+
+[node name="Fire3" parent="." instance=ExtResource("1_8ss6v")]
+position = Vector2(-3, 2)
+
+[node name="Fire4" parent="." instance=ExtResource("1_8ss6v")]
+position = Vector2(1, 4)
